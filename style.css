@@ -268,6 +268,142 @@ footer {
         font-size: 1.5rem;
     }
 }
+/* ===== PUBLICATIONS PAGE ===== */
 
+/* Profile Links Box */
+.profile-links-box {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.profile-links-box p {
+    color: #cccccc;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.profile-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.profile-btn {
+    background-color: #333;
+    color: #ffffff;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #555;
+    transition: all 0.3s;
+}
+
+.profile-btn:hover {
+    background-color: #8C1515;
+    border-color: #8C1515;
+}
+
+/* Publication Year Groups */
+.pub-year-group {
+    margin-bottom: 3rem;
+}
+
+.year-heading {
+    color: #8C1515;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #333;
+}
+
+/* Individual Publication */
+.publication-item {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s;
+}
+
+.publication-item:hover {
+    border-color: #8C1515;
+}
+
+.pub-title {
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.4;
+}
+
+.pub-authors {
+    color: #cccccc;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.pub-authors strong {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.pub-journal {
+    color: #999999;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.pub-journal em {
+    color: #aaaaaa;
+}
+
+/* Publication Links */
+.pub-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.pub-link {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    background-color: #333;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #555;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+.pub-link:hover {
+    background-color: #8C1515;
+    border-color: #8C1515;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .year-heading {
+        font-size: 1.5rem;
+    }
+    
+    .pub-title {
+        font-size: 1.1rem;
+    }
+    
+    .profile-buttons {
+        flex-direction: column;
+    }
+    
+    .profile-btn {
+        width: 100%;
+    }
+}
 
 
