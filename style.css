@@ -268,12 +268,253 @@ footer {
         font-size: 1.5rem;
     }
 }
+/* ===== PROJECTS PAGE ===== */
 
+/* Research Overview */
+.research-overview {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+}
 
+.research-overview p {
+    color: #cccccc;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto;
+}
 
+/* Project Items */
+.project-item {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: border-color 0.3s;
+}
 
+.project-item:hover {
+    border-color: #8C1515;
+}
 
+/* Project Header */
+.project-header {
+    margin-bottom: 1.5rem;
+}
 
+.project-title-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.project-title {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+/* Project Badges */
+.project-badge {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.project-badge.active {
+    background-color: #1a4d1a;
+    color: #4ade80;
+    border: 1px solid #4ade80;
+}
+
+.project-badge.completed {
+    background-color: #1a3a5c;
+    color: #60a5fa;
+    border: 1px solid #60a5fa;
+}
+
+/* Project Content */
+.project-content {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+/* Project Image */
+.project-image {
+    width: 100%;
+    height: auto;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #333;
+    object-fit: cover;
+}
+
+/* Project Description */
+.project-description {
+    color: #cccccc;
+}
+
+.project-description p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+/* Project Details */
+.project-details {
+    background-color: #0a0a0a;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.project-details p {
+    color: #aaaaaa;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 0.8rem;
+}
+
+.project-details p:last-child {
+    margin-bottom: 0;
+}
+
+.project-details strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Project Links */
+.project-link {
+    color: #8C1515;
+    text-decoration: none;
+    transition: color 0.3s;
+    margin-right: 1rem;
+}
+
+.project-link:hover {
+    color: #ff4444;
+    text-decoration: underline;
+}
+
+/* Techniques Grid */
+.techniques-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* Technique Cards */
+.technique-card {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.technique-card:hover {
+    border-color: #8C1515;
+    transform: translateY(-5px);
+}
+
+.technique-icon {
+    color: #8C1515;
+    margin-bottom: 1rem;
+}
+
+.technique-icon svg {
+    width: 48px;
+    height: 48px;
+}
+
+.technique-card h3 {
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.technique-card p {
+    color: #aaaaaa;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+    .project-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .project-image {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .project-title {
+        font-size: 1.5rem;
+    }
+    
+    .techniques-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .project-item {
+        padding: 1.5rem;
+    }
+    
+    .project-title-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .project-title {
+        font-size: 1.3rem;
+    }
+    
+    .research-overview {
+        padding: 1.5rem;
+    }
+    
+    .research-overview p {
+        font-size: 1rem;
+    }
+    
+    .techniques-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-content {
+        gap: 1.5rem;
+    }
+    
+    .project-details {
+        padding: 1rem;
+    }
+}
 
 /* ===== PUBLICATIONS PAGE ===== */
 
