@@ -311,20 +311,6 @@ footer {
     border-bottom: 2px solid #333;
 }
 
-.project-number {
-    background: linear-gradient(135deg, #8C1515, #ff4444);
-    color: #ffffff;
-    font-size: 2rem;
-    font-weight: bold;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    flex-shrink: 0;
-}
-
 .project-title-section {
     flex: 1;
     display: flex;
@@ -346,18 +332,6 @@ footer {
     font-size: 0.9rem;
     font-weight: 600;
     align-self: flex-start;
-}
-
-.active-status {
-    background-color: rgba(76, 175, 80, 0.2);
-    color: #4CAF50;
-    border: 1px solid #4CAF50;
-}
-
-.completed-status {
-    background-color: rgba(33, 150, 243, 0.2);
-    color: #2196F3;
-    border: 1px solid #2196F3;
 }
 
 /* Project Content */
