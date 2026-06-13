@@ -450,7 +450,7 @@ footer {
     }
     
     .project-image {
-        position: relative;
+        position: sticky;
         top: 0;
     }
     
