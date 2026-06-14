@@ -330,7 +330,6 @@ footer {
 
 /* Project Image */
 .project-image {
-    position: sticky;
     top: 100px;
     height: fit-content;
 }
