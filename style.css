@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -359,6 +359,7 @@ footer {
 }
 
 .project-description p {
+    font-size: 1.3rem;
     line-height: 1.8;
     margin-bottom: 1rem;
 }
