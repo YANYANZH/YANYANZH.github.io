@@ -192,8 +192,8 @@ footer {
     align-items: flex-start;
     gap: 2rem;
     text-align: left;
-    border: none; /* Remove border */
-    background-color: transparent; /* Optional: remove background too */
+    border: none; 
+    background-color: transparent;
 }
 
 .pi-card .member-info h3,
