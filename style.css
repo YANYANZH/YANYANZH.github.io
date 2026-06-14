@@ -326,15 +326,6 @@ footer {
     line-height: 1.3;
 }
 
-.project-status {
-    display: inline-block;
-    padding: 0.4rem 1rem;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    align-self: flex-start;
-}
-
 /* Project Content */
 .project-content {
     display: grid;
