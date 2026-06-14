@@ -272,20 +272,16 @@ footer {
 
 /* Research Overview */
 .research-overview {
-    background-color: #1a1a1a;
-    border: 1px solid #333;
-    border-radius: 8px;
-    padding: 2rem;
+    padding: 2rem 0;
     margin-bottom: 3rem;
 }
-
 .research-overview p {
     color: #ffffff;
     font-size: 1.4rem;
-    line-height: 1.6;
-    text-align: justify;
-    margin: 0;
     font-weight: 100;
+    line-height: 1.8;
+    text-align: center;
+    margin: 0;
 }
 
 /* Project Box */
